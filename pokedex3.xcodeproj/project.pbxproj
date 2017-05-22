@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252C2C3E1ED31C03004EE33C /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 252C2C3D1ED31C03004EE33C /* pokemon.csv */; };
 		25D3F25F1ED315EE002E6E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D3F25E1ED315EE002E6E21 /* AppDelegate.swift */; };
 		25D3F2611ED315EE002E6E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D3F2601ED315EE002E6E21 /* ViewController.swift */; };
 		25D3F2641ED315EE002E6E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D3F2621ED315EE002E6E21 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		252C2C3D1ED31C03004EE33C /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		25D3F25B1ED315EE002E6E21 /* pokedex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D3F25E1ED315EE002E6E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25D3F2601ED315EE002E6E21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				25D3F2601ED315EE002E6E21 /* ViewController.swift */,
 				25D3F2621ED315EE002E6E21 /* Main.storyboard */,
 				25D3F2651ED315EE002E6E21 /* Assets.xcassets */,
+				252C2C3D1ED31C03004EE33C /* pokemon.csv */,
 				25D3F2671ED315EE002E6E21 /* LaunchScreen.storyboard */,
 				25D3F26A1ED315EE002E6E21 /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				25D3F2691ED315EE002E6E21 /* LaunchScreen.storyboard in Resources */,
 				25D3F2661ED315EE002E6E21 /* Assets.xcassets in Resources */,
+				252C2C3E1ED31C03004EE33C /* pokemon.csv in Resources */,
 				25D3F2641ED315EE002E6E21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				25D3F26F1ED315EE002E6E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
